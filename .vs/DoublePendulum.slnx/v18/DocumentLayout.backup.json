@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|c:\\users\\willr\\onedrive - university of cambridge\\doublependulum\\outputwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|solutionrelative:outputwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|c:\\users\\willr\\onedrive - university of cambridge\\doublependulum\\outputwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|solutionrelative:outputwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|c:\\users\\willr\\onedrive - university of cambridge\\doublependulum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|c:\\users\\willr\\onedrive - university of cambridge\\doublependulum\\settingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|solutionrelative:settingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|c:\\users\\willr\\onedrive - university of cambridge\\doublependulum\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|solutionrelative:settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|c:\\users\\willr\\onedrive - university of cambridge\\doublependulum\\pendulumconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|solutionrelative:pendulumconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|c:\\users\\willr\\onedrive - university of cambridge\\doublependulum\\pendulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|solutionrelative:pendulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|c:\\users\\willr\\onedrive - university of cambridge\\doublependulum\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|solutionrelative:node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|c:\\users\\willr\\onedrive - university of cambridge\\doublependulum\\myqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|solutionrelative:myqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|c:\\users\\willr\\onedrive - university of cambridge\\doublependulum\\mypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E469811D-8583-41B9-BFDE-EB0ED660AF83}|DoublePendulum.csproj|solutionrelative:mypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:08:06.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OutputWindow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\OutputWindow.cs",
+              "RelativeDocumentMoniker": "OutputWindow.cs",
+              "ToolTip": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\OutputWindow.cs [Design]*",
+              "RelativeToolTip": "OutputWindow.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:06:10.094Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OutputWindow.cs",
+              "DocumentMoniker": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\OutputWindow.cs",
+              "RelativeDocumentMoniker": "OutputWindow.cs",
+              "ToolTip": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\OutputWindow.cs*",
+              "RelativeToolTip": "OutputWindow.cs*",
+              "ViewState": "AgIAAMwEAAAAAAAAAAD4v94EAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:01:51.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingsManager.cs",
+              "DocumentMoniker": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\SettingsManager.cs",
+              "RelativeDocumentMoniker": "SettingsManager.cs",
+              "ToolTip": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\SettingsManager.cs",
+              "RelativeToolTip": "SettingsManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:58:51.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\Settings.cs",
+              "RelativeDocumentMoniker": "Settings.cs",
+              "ToolTip": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\Settings.cs",
+              "RelativeToolTip": "Settings.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:57:34.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PendulumConstants.cs",
+              "DocumentMoniker": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\PendulumConstants.cs",
+              "RelativeDocumentMoniker": "PendulumConstants.cs",
+              "ToolTip": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\PendulumConstants.cs",
+              "RelativeToolTip": "PendulumConstants.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAmwD4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:57:08.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pendulum.cs",
+              "DocumentMoniker": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\Pendulum.cs",
+              "RelativeDocumentMoniker": "Pendulum.cs",
+              "ToolTip": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\Pendulum.cs",
+              "RelativeToolTip": "Pendulum.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwB0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:56:31.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\Node.cs",
+              "RelativeDocumentMoniker": "Node.cs",
+              "ToolTip": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\Node.cs",
+              "RelativeToolTip": "Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:56:07.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyQueue.cs",
+              "DocumentMoniker": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\MyQueue.cs",
+              "RelativeDocumentMoniker": "MyQueue.cs",
+              "ToolTip": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\MyQueue.cs",
+              "RelativeToolTip": "MyQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:55:05.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyPoint.cs",
+              "DocumentMoniker": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\MyPoint.cs",
+              "RelativeDocumentMoniker": "MyPoint.cs",
+              "ToolTip": "C:\\Users\\willr\\OneDrive - University of Cambridge\\DoublePendulum\\MyPoint.cs",
+              "RelativeToolTip": "MyPoint.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:54:28.9Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

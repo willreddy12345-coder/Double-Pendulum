@@ -1,0 +1,13 @@
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\obj\Debug\DoublePendulum.csproj.AssemblyReference.cache
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\obj\Debug\DoublePendulum.Properties.Resources.resources
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\obj\Debug\DoublePendulum.csproj.GenerateResource.cache
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\obj\Debug\DoublePendulum.csproj.CoreCompileInputs.cache
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\bin\Debug\DoublePendulum.exe.config
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\bin\Debug\DoublePendulum.exe
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\bin\Debug\DoublePendulum.pdb
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\bin\Debug\Newtonsoft.Json.dll
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\bin\Debug\Newtonsoft.Json.xml
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\obj\Debug\DoublePe.56BA4B9E.Up2Date
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\obj\Debug\DoublePendulum.exe
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\obj\Debug\DoublePendulum.pdb
+C:\Users\willr\OneDrive - University of Cambridge\DoublePendulum\obj\Debug\DoublePendulum.OutputWindow.resources
