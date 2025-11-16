@@ -118,6 +118,7 @@ namespace DoublePendulum
             }
             if (showPendulums)
             {
+                rootBrush = new SolidBrush(constants.GetColours()[0]);
                 graphics.DrawLine(linePen, x0, y0, x1, y1);
                 graphics.DrawLine(linePen, x1, y1, x2, y2);
 

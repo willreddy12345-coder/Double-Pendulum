@@ -121,7 +121,7 @@ namespace DoublePendulum
             InitializeComponent();
             CreateValidationBitmaps(); 
             SetInitialValidationStatus(); 
-            updateConstants(); 
+            updateConstants(true); 
             pendulumBox.MouseDown += MainForm_MouseDown;
             pendulumBox.MouseMove += MainForm_MouseMove;
             pendulumBox.MouseUp += MainForm_MouseUp;
@@ -187,8 +187,7 @@ namespace DoublePendulum
             this.m2Label = new System.Windows.Forms.Label();
             this.m1Label = new System.Windows.Forms.Label();
             this.gLabel = new System.Windows.Forms.Label();
-            this.penNumLabel = new System.Windows.Forms.Label();
-            this.offsetAngleLabel = new System.Windows.Forms.Label();
+
             this.pendulumBox = new System.Windows.Forms.PictureBox();
             this.Length1Scroll = new System.Windows.Forms.TrackBar();
             this.length1Label = new System.Windows.Forms.Label();
@@ -1081,25 +1080,25 @@ namespace DoublePendulum
         private void Length1Scroll_Scroll(object sender, EventArgs e)
         {
             length1Label.Text = Convert.ToString(Length1Scroll.Value);
-            updateConstants();
+            updateConstants(true);
         }
 
         private void Length2Scroll_Scroll(object sender, EventArgs e)
         {
             length2Label.Text = Convert.ToString(Length2Scroll.Value);
-            updateConstants();
+            updateConstants(true);
         }
 
         private void Angle1Scroll_Scroll(object sender, EventArgs e)
         {
             angle1Label.Text = Convert.ToString(Angle1Scroll.Value);
-            updateConstants();
+            updateConstants(true);
         }
 
         private void Angle2Scroll_Scroll(object sender, EventArgs e)
         {
             angle2Label.Text = Convert.ToString(Angle2Scroll.Value);
-            updateConstants();
+            updateConstants(true);
         }
         private void gTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -1112,7 +1111,7 @@ namespace DoublePendulum
                 }
                 else
                 {
-                    updateConstants();
+                    updateConstants(true);
                     gCheck.Image = greenTick; 
 
                 }
@@ -1135,7 +1134,7 @@ namespace DoublePendulum
                 }
                 else
                 {
-                    updateConstants();
+                    updateConstants(true);
                     m1Check.Image = greenTick; 
 
                 }
@@ -1160,7 +1159,7 @@ namespace DoublePendulum
                 }
                 else
                 {
-                    updateConstants();
+                    updateConstants(true);
                     m2Check.Image = greenTick; 
 
                 }
@@ -1174,10 +1173,10 @@ namespace DoublePendulum
 
         }
 
-        private void updateConstants()
+        private void updateConstants(bool check)
         {
 
-            ResetPendulums();
+            ResetPendulums(check);
             UpdateImage();
         } 
 
@@ -1216,7 +1215,7 @@ namespace DoublePendulum
             gTextBox.Text = "9.81";
             Mass1TextBox.Text = "10";
             Mass2TextBox.Text = "10";
-            updateConstants();
+            updateConstants(true);
             showPendulums = true;
             showTrailChecked = false;
             showTrail.Checked = false;
@@ -1234,7 +1233,7 @@ namespace DoublePendulum
                 updateLength2(rnd.Next(30, 100));
                 updateAngle1(rnd.Next(-180, 180));
                 updateAngle2(rnd.Next(-180, 180));
-                updateConstants();
+                updateConstants(true);
             }
             else
             {
@@ -1245,7 +1244,7 @@ namespace DoublePendulum
                 updateAngle1(Math.Max(Math.Min(numbers[2], Angle1Scroll.Maximum), Angle1Scroll.Minimum));
                 updateAngle2(Math.Max(Math.Min(numbers[3], Angle2Scroll.Maximum), Angle2Scroll.Minimum));
 
-                updateConstants();
+                updateConstants(true);
             }
         }
 
@@ -1335,7 +1334,7 @@ namespace DoublePendulum
             pendulums = null;
             StartStopButton.Text = "START";
             pendulumTimer.Enabled = false; 
-            ResetPendulums(); 
+            ResetPendulums(true); 
             if (wasRunning)
             {
                 StartStopButton_Click(sender, e);
@@ -1471,7 +1470,7 @@ namespace DoublePendulum
                 }
                 if (pendulums == null)
                 {
-                    ResetPendulums();
+                    ResetPendulums(true);
                 }
             }
             else
@@ -1510,7 +1509,7 @@ namespace DoublePendulum
 
                 updateAngle1(angle1);
                 updateAngle2(angle2);
-                updateConstants();
+                updateConstants(true);
             }
         }
 
@@ -1539,14 +1538,14 @@ namespace DoublePendulum
 
             if (multi)
             {
-                ResetPendulums();
+                ResetPendulums(true);
                 UpdateImage();
                 noPendulums.Visible = true;
                 multiPendulum.Text = "Disable Multiple Pendulums";
             }
             else
             {
-                ResetPendulums();
+                ResetPendulums(true);
                 UpdateImage();
                 noPendulums.Visible = false;
 
@@ -1554,7 +1553,7 @@ namespace DoublePendulum
 
             }
         }
-        private void ResetPendulums()
+        private void ResetPendulums(bool check)
         {
             double g = 9.81;
             int m1 = 10;
@@ -1562,13 +1561,15 @@ namespace DoublePendulum
             if (double.TryParse(gTextBox.Text, out double g_parsed)) g = g_parsed;
             if (int.TryParse(Mass1TextBox.Text, out int m1_parsed)) m1 = m1_parsed;
             if (int.TryParse(Mass2TextBox.Text, out int m2_parsed)) m2 = m2_parsed;
-
-            checkColour(customiseColour.Text, customiseColour.Name);
-            checkColour(CustomiseBackgroundColor.Text, CustomiseBackgroundColor.Name);
-            checkColour(rootColorBox.Text, rootColorBox.Name);
-            checkColour(middleColorBox.Text, middleColorBox.Name);
-            checkColour(tailColorBox.Text, tailColorBox.Name);
-            checkColour(lineColorBox.Text, lineColorBox.Name);
+            if (check)
+            {
+                checkColour(customiseColour.Text, customiseColour.Name);
+                checkColour(CustomiseBackgroundColor.Text, CustomiseBackgroundColor.Name);
+                checkColour(rootColorBox.Text, rootColorBox.Name);
+                checkColour(middleColorBox.Text, middleColorBox.Name);
+                checkColour(tailColorBox.Text, tailColorBox.Name);
+                checkColour(lineColorBox.Text, lineColorBox.Name);
+            }
 
             PendulumConstants p = new PendulumConstants(g * 100, m1, m2, (int)(Parse(length1Label.Text) * 1.3), (int)(Parse(length2Label.Text) * 1.3), this.rootColor, this.middleColor, this.tailColor, this.lineColor, trailColor, pendulumTimer.Interval);
 
@@ -1577,7 +1578,7 @@ namespace DoublePendulum
             {
                 for (int i = 0; i < pendulumNumber; i++)
                 {
-                    Pendulum first = new Pendulum(pendulumBox.Width, pendulumBox.Height, 10, p, ((Parse(angle1Label.Text) + i * offset) * Math.PI) / 180, ((Parse(angle2Label.Text) + i * offset) * Math.PI) / 180, Color.WhiteSmoke);
+                    Pendulum first = new Pendulum(pendulumBox.Width, pendulumBox.Height, 10, p, ((Parse(angle1Label.Text) + i * offset) * Math.PI) / 180, ((Parse(angle2Label.Text) + i * offset) * Math.PI) / 180, pendulumBox.BackColor);
                     pendulums.Add(first);
 
                 }
@@ -1585,7 +1586,7 @@ namespace DoublePendulum
             }
             else
             {
-                Pendulum first = new Pendulum(pendulumBox.Width, pendulumBox.Height, 10, p, ((Parse(angle1Label.Text)) * Math.PI) / 180, ((Parse(angle2Label.Text)) * Math.PI) / 180, Color.WhiteSmoke);
+                Pendulum first = new Pendulum(pendulumBox.Width, pendulumBox.Height, 10, p, ((Parse(angle1Label.Text)) * Math.PI) / 180, ((Parse(angle2Label.Text)) * Math.PI) / 180, pendulumBox.BackColor);
                 pendulums.Add(first);
 
 
@@ -1620,7 +1621,7 @@ namespace DoublePendulum
                 penNumCheck.Image = redCross; 
             }
 
-            ResetPendulums();
+            ResetPendulums(true);
             UpdateImage();
         }
         private void offsetAngle_TextChanged(object sender, EventArgs e)
@@ -1652,7 +1653,7 @@ namespace DoublePendulum
             {
                 offsetAngleCheck.Image = redCross;
             }
-            ResetPendulums();
+            ResetPendulums(true);
             UpdateImage();
         }
         private void hidePendulums_CheckedChanged(object sender, EventArgs e)
@@ -1688,7 +1689,8 @@ namespace DoublePendulum
                 if (Name == "customiseColour")
                 {
                     trailColorCheck.Image = greenTick; 
-                    trailColor = newColour; 
+                    trailColor = newColour;
+                    updateConstants(false);
                     if (pendulums == null) return;
                     foreach (Pendulum p in pendulums)
                     {
@@ -1698,7 +1700,8 @@ namespace DoublePendulum
                 else if (Name == "CustomiseBackgroundColor")
                 {
                     bgColorCheck.Image = greenTick; 
-                    pendulumBox.BackColor = newColour; 
+                    pendulumBox.BackColor = newColour;
+                    updateConstants(false);
                     if (pendulums == null) return;
                     foreach (Pendulum p in pendulums)
                     {
@@ -1709,22 +1712,28 @@ namespace DoublePendulum
                 {
                     rootColorCheck.Image = greenTick; 
                     this.rootColor = newColour;
+                    updateConstants(false);
                 }
                 else if (Name == "middleColorBox")
                 {
                     middleColorCheck.Image = greenTick; 
                     this.middleColor = newColour;
+                    updateConstants(false);
                 }
                 else if (Name == "tailColorBox")
                 {
                     tailColorCheck.Image = greenTick; 
                     this.tailColor = newColour;
+                    updateConstants(false);
                 }
                 else if (Name == "lineColorBox")
                 {
                     lineColorCheck.Image = greenTick; 
                     this.lineColor = newColour;
+                    updateConstants(false);
                 }
+                
+
             }
             else
             {
@@ -1802,7 +1811,7 @@ namespace DoublePendulum
                         noPendulums.Text = "1";
                     }
 
-                    updateConstants(); 
+                    updateConstants(true); 
                     jsonPanel.Visible = false;
                     SimulationPanel.Visible = true;
                     jsonLoadCheck.Image = greenTick; 
